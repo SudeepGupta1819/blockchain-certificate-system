@@ -1,0 +1,131 @@
+.input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #000000;
+  border-radius: 0;
+  background: transparent;
+  padding: 0.5rem 0;
+  color: #000000;
+  font-size: 0.875rem;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.input:focus {
+  border-bottom: 2px solid #000000;
+  padding-bottom: calc(0.5rem - 1px);
+}
+
+input[type="file"].input {
+  border-bottom: none;
+  padding: 0.25rem 0;
+  cursor: pointer;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 2px;
+  background: #000000;
+  padding: 0.5rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button:hover:not(:disabled) {
+  opacity: 0.85;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  background: #000000;
+  color: #ffffff;
+}
+
+.button-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000000;
+  border-radius: 2px;
+  background: #ffffff;
+  padding: 0.5rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #000000;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button-secondary:hover:not(:disabled) {
+  background: #000000;
+  color: #ffffff;
+}
+
+.card {
+  border: none;
+  background: #ffffff;
+  padding: 1rem 0;
+  color: #000000;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #000000;
+  background: #ffffff;
+  border-radius: 2px;
+  text-decoration: none;
+  margin-bottom: 2px;
+}
+
+.nav-link:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+.nav-link-active {
+  background: #000000 !important;
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+.nav-link-active:hover {
+  background: #000000 !important;
+  color: #ffffff !important;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  color: #000000;
+}
+
+table th {
+  background-color: #ffffff;
+  border: none;
+  border-bottom: 2px solid #000000;
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 0.8125rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+table td {
+  background-color: #ffffff;
+  border: none;
+  border-bottom: 1px solid #000000;
+  padding: 10px 12px;
+  font-size: 0.875rem;
+  color: #000000;
+}

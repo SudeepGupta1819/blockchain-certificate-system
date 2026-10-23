@@ -1,0 +1,28 @@
+
+# Dependencies
+node_modules/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Uploaded certificate files
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Build output
+dist/
+frontend/dist/
+coverage/
+
+# Hardhat generated files
+blockchain/artifacts/
+blockchain/cache/
+
+# Logs
+*.log
+
+# Local editor files
+.vscode/
+.idea/
